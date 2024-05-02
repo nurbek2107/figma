@@ -141,3 +141,233 @@ text-align: center;
     font-size: 16px;
     line-height: 24px;
 }
+
+.card3 .container {
+    margin-top: 123px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 98px;
+    margin-bottom: 115px;
+}
+
+
+.card3 .container img {
+    border-radius: 30px;
+    width: 100%;
+}
+
+.card3 .container span {
+    font-family: 'Roboto-500';
+    letter-spacing: 3px;
+    color: #DC780B;
+    font-size: 16px;
+}
+
+.card3 .container h1 {
+    margin-top: 30px;
+    font-family: 'Philosopher-700';
+    width: 457px;
+    font-size: 31.25px;
+    line-height: 40.63px;
+}
+
+.card3 .container p {
+    margin-top: 30px;
+    font-family: 'Roboto-400';
+    width: 477px;
+    color: #150c0189;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.card3 .container button {
+    margin-top: 30px;
+    border: none;
+    background-color: #DC780B;
+    padding: 14px 30px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-family: 'Roboto-400';
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.card3 .container button:hover {
+    background-color: #150c0189;
+}
+.card4 .container .block {
+    text-align: center;
+    width: 748px;
+    margin: 0px auto;
+}
+
+.card4 .container span {
+    font-family: 'Roboto-500';
+    letter-spacing: 3px;
+    color: #DC780B;
+    font-size: 16px;
+}
+
+.card4 .container h2 {
+    margin-top: 9px;
+    font-family: 'Philosopher-700';
+    font-size: 31.25px;
+    line-height: 40.63px;
+}
+
+.card4 .container .block p {
+    margin-top: 25px;
+    font-family: 'Roboto-400';
+    color: #150c0189;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.card4 .block2 .top {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card4 .block2 .bottom {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card4 .left {
+    width: 360px;
+    border: 1px solid #9796968c;
+    border-radius: 80px 11px 11px 11px;
+}
+
+.card4 .left .block2 {
+    padding: 0px 23px;
+    display: flex;
+    font-family: 'Philosopher-700';
+    font-size: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card4 .left .block3 {
+    margin-top: -25px;
+    padding: 0px 23px;
+    display: flex;
+    font-family: 'Roboto-400';
+    font-size: 16px;
+    line-height: 24px;
+    color: #150c0189;
+}
+
+.card4 .left .block4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 23px;
+}
+
+.card4 .left .block4 a {
+    background-color: #DC780B;
+    padding: 11px;
+    border-radius: 5px;
+}
+.card4  a button {
+    margin: 0px auto;
+    border: 2px solid #dc770b50;
+    background-color: #150c0100;
+    padding: 20px 30px;
+    color: #DC780B;
+    transition: all .5s ease;
+    font-family: 'Roboto-500';
+    font-size: 16px;
+    border-radius: 8px;
+
+}
+.card4  button:hover{
+    background-color: #150c0189;
+    border: 2px solid#150c0100;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 0.3rem;
+    --stroke: #666;
+    --fill: #DC780B;
+}
+.rating input  {
+    appearance: unset;
+}
+.rating label {
+    cursor: pointer;
+}
+.rating svg {
+    width: 2rem;
+    height: 2rem;
+    overflow: visible;
+    fill: transparent;
+    stroke: var(--stroke);
+}
+.rating label:hover svg {
+    stroke: var(--fill);
+}
+.rating input:checked~label svg {
+    fill: var(--fill);
+    stroke: var(--fill);
+    stroke-opacity: 0;
+    stroke-width: 8px;
+}
+
+
+
+
+
+
+
