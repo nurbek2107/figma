@@ -1,3 +1,6 @@
+header{
+    margin-top: 30px;
+}
 nav {
     display: flex;
     align-items: center;
@@ -92,5 +95,49 @@ main .card1 .left button:nth-child(2):hover{
 }
 main .card1 .left button:nth-child(1):hover {
     background-color: #150c0189;
-    
+}
+.card2 .container p:nth-child(1){
+text-align: center;
+    font-family: 'Roboto-500';
+    color: #DC780B;
+    font-size: 16px;
+}
+.card2 .container h2 {
+    font-family: 'Philosopher-700';
+    text-align: center;
+    font-size: 31.25px;
+    line-height: 35px;
+}
+.card2 .container .block{
+    margin-top: 44px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card2 .container .block .img1{
+    background-color: #8fa63232;
+    width: 60px;
+    margin: 0px auto;
+    border-radius: 50%;
+    padding: 22px;
+}
+.card2 .container .block .img3 {
+    background-color: #dc770b32;
+    width: 60px;
+    margin: 0px auto;
+    border-radius: 50%;
+    padding: 22px;
+}
+.card2 .container .block h3{
+    font-family: 'Philosopher-700';
+    font-size: 31.25px;
+    line-height: 35px;
+}
+.card2 .container .block p{
+    max-width: 300px;
+    color: #150c0189;
+    font-family: 'Roboto-400';
+    font-size: 16px;
+    line-height: 24px;
 }
