@@ -1,0 +1,96 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .left{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+nav .left .link{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+}
+nav .left .link a{
+    text-decoration: none;
+    font-family: 'Roboto-500';
+    color: #150c0189;
+    transition: all .5s ease;
+}
+nav .left .link a:hover{
+    color: #DC780B;
+}
+nav .right button{
+    border: none;
+    background-color: #DC780B;
+    padding: 14px 30px;
+    border-radius:  5px;
+    color: aliceblue;
+    font-family: 'Roboto-400';
+    cursor: pointer;
+    transition:  all .5s ease;
+}
+nav .right button:hover{
+    background-color: #150c0189;
+}
+main{
+    margin-top: 16px;
+}
+main .card1 .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main .card1 .left{
+    max-width: 555px;
+}
+main .card1 .left h1{
+    font-family: 'Philosopher-700';
+    font-size: 48.83px;
+    line-height: 57.6px;
+    color: #150C01;
+}
+main .card1 .left p{
+    margin-top: 42px;
+    font-family: 'Roboto-500';
+    color: #150c01b3;
+    line-height: 24px;
+    font-size: 16px;
+}
+main .card1 .left .button{
+    margin-top: 50px;
+display: flex;
+align-items: center;
+gap: 30px;
+}
+main .card1 .left button{
+    border: none;
+    padding: 20px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Roboto-500';
+    font-size: 16px;
+    line-height: 18.75px;
+    background-color: #dc770b00;
+    transition: all .5s ease;
+}
+main .card1 .left button:nth-child(1){
+    background-color: #DC780B;
+    color: #FFFFFF;
+}
+main .card1 .left button:nth-child(2) {
+    border:  2px solid #dc770b50;
+    color: #DC780B;
+}
+main .card1 .left button:nth-child(2):hover{
+    background-color: #150c0189;
+    border: 2px solid#150c0100;
+    color: #FFFFFF;
+}
+main .card1 .left button:nth-child(1):hover {
+    background-color: #150c0189;
+    
+}
